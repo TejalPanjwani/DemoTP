@@ -1,0 +1,2 @@
+module StaticepagesHelper
+end
