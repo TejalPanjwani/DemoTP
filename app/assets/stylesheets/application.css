@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+
+.take-center
+{
+    padding-top: 60px;
+    padding-left: 530px;
+}
+
+.make-color
+{
+    color: red;
+}
