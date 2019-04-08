@@ -6,6 +6,7 @@ class UsersController < ApplicationController
     def create
         @user = User.new(user_pramas)
         if @user.save
+            log_in(@user)
             # puts "=============================================="
             # puts @user.attributes.to_yaml
             # puts "============================================="
